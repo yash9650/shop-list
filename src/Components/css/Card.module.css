@@ -1,0 +1,47 @@
+p{
+  margin: 0;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  height: 4em;
+  width: 85%;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.index{
+}
+
+.subcard{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.title{
+}
+
+
+
+.button{
+  background-color: white;
+  border: none;
+}
+
+.button:hover{
+  background-color: rgba(241, 17, 17, 0.76);
+  /* border: 1px solid black; */
+  border-radius: 50px;
+}
+
+.card:hover{
+  /* margin: 3px; */
+  padding: 0.5em;
+}
